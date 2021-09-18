@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container my-4">
+        <h3>Learn Form Tag</h3>
+        <form id="myForm" action="" method="POST">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="input1">Name:</label>
+                        <input id="input1" class="form-control" name="name" value="empty" autofocus type="text"
+                            placeholder="name">
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="input2">Phone:</label>
+                        <input id="input2" class="form-control" value=12341324 name="phone" type="number"
+                            placeholder="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="input3">Email</label>
+                        <input id="input3" class="form-control" value="empty" name="email" type="email"
+                            placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="input4">password:</label>
+                        <input id="input4" class="form-control" value="empty" name="password" type="password"
+                            placeholder="password">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="input5">birth:</label>
+                        <input id="input5" class="form-control" value="empty" name="dateOfBirth" type="date"
+                            placeholder="dateOfBirth">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkbox">Is fav:</label>
+                        <div class="row" style="padding-left: 15px;">
+                            <label for="input10">spiderman</label>
+                            <input id="input9" class="form-control col-1" checked name="fav1" type="checkbox"
+                                placeholder="dateOfBirth">
+                            <label for="input10">batman</label>
+                            <input id="input10" class="form-control col-1" name="fav2" type="checkbox"
+                                placeholder="dateOfBirth">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="input6">Color</label>
+                        <input id="input6" class="form-control" name="color" type="color" placeholder="fav color">
+                    </div>
+                    <div class="form-group">
+                        <label for="input7">Img</label>
+                        <input id="input7" class="form-control" name="img" type="file" placeholder="profile img">
+                    </div>
+                    <div class="form-group">
+                        <label for="input8">Your Comments:-</label>
+                        <!-- <input id="input7" class="form-control" name="img" type="file" placeholder="profile img"> -->
+                        <textarea class="form-control" name="comments" id="input8" cols="30" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <input id="input6" class="btn btn-outline-warning" name="" type="submit" placeholder="name">
+
+            <span onclick="myformSubmit()" class="btn btn-outline-primary">Submit</span>
+        </form>
+    </div>
+
+</body>
+<script src="./js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</html>
