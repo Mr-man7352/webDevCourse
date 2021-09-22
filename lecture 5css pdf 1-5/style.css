@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+* {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ubuntu';
+}
+
+#underline, .secondHalf h2 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: aqua;
+    background-color: rebeccapurple;
+    /* background: ; */
+    position: relative;
+}
+
+.secondHalf h2 {
+    color: purple;
+}
+
+.firstHalf p {
+    font-family: 'Koh+Santepheap';
+    font-weight: 100;
+}
+
+.secondHalf p {
+    font-family: 'Koh+Santepheap';
+    font-weight: 300;
+}
+
+/* jo specific hoga */
+
+/* .className elementName(h1) */
+
+/* 
+
+selecto1, selector2, selctor3{
+    property: which is common
+}
+
+
+*/
+
+/* measurement
+
+
+%:- parent container ka relative hota hai
+
+
+
+
+
+
+
+
+
+
+*/
